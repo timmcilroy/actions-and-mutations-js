@@ -1,3 +1,5 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-var pattern = {};
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const isTabInView = () => !document.hidden;
+const channel = getChannel(computedAppVersion);
+console.log( "A" - "B" + 2);
