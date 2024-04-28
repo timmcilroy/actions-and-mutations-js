@@ -1,5 +1,4 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const isTabInView = () => !document.hidden;
-const channel = getChannel(computedAppVersion);
-console.log( "A" - "B" + 2);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const stringReverse = str => str.split("").reverse().join("");
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const flattenedArray = arr => [].concat(...arr);
