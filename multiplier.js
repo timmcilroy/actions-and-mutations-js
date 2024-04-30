@@ -1,3 +1,2 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const isEven = (num) => num % 2 === 0;
+const randomString = () => Math.random().toString(36).slice(2);
 console.log( "A" - "B" + "2");
