@@ -1,4 +1,3 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const stringReverse = str => str.split("").reverse().join("");
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const flattenedArray = arr => [].concat(...arr);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+console.log(1 +  "2" + "2");
