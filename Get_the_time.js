@@ -1,3 +1,2 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const lastElement = arr => arr[arr.length - 1];
-const isEmptyArray = arr => !arr.length;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+console.log(+"1" +  "1" + "2");
