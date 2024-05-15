@@ -1,3 +1,3 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const flattenedArray = arr => [].concat(...arr);
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const minNumber = arr => Math.min(...arr);
+const randomBoolean = () => Math.random() >= 0.5;
