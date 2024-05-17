@@ -1,3 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const minNumber = arr => Math.min(...arr);
-const randomBoolean = () => Math.random() >= 0.5;
+console.log(1 +  "2" + "2");
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const maxNumber = arr => Math.max(...arr);
