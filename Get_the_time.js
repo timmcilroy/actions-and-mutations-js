@@ -1,2 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
-const uniqueArr = (arr) => [...new Set(arr)];
+const removeDuplicates = (arr) => [...new Set(arr)];
+console.log(false == '0');
+const executableName = getExecutableName(channel, appName);
