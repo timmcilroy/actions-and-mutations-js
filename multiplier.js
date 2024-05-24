@@ -1,3 +1,1 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const minNumber = arr => Math.min(...arr);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
