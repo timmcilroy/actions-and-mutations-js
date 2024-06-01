@@ -1,1 +1,1 @@
-const isEmptyArray = arr => !arr.length;
+var c = new Counter(); c.add(); c.add(); c.add();
