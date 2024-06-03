@@ -1,1 +1,1 @@
-var c = new Counter(); c.add(); c.add(); c.add();
+const uniqueArr = (arr) => [...new Set(arr)];
