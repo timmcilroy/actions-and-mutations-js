@@ -1,2 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const merge = [...new Set([...a, ...b])];
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
