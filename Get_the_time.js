@@ -1,2 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-console.log(false === '0');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+[foo, bar] = [bar, foo];
