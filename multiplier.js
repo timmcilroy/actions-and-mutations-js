@@ -1,1 +1,3 @@
-const arrayContains = (arr, element) => arr.includes(element);
+const lastElement = arr => arr[arr.length - 1];
+console.log("1 && 2 = "+(1 && 2));
+console.log(1 +  "2" + "2");
