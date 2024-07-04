@@ -1,3 +1,2 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const stringReverse = str => str.split("").reverse().join("");
-const isTabInView = () => !document.hidden;
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
