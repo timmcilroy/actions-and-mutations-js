@@ -1,3 +1,3 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-var c = new Counter(); c.add(); c.add(); c.add();
-var arr1 = "john".split('');
+console.log("0 && 1 = "+(0 && 1));
+console.log(+"1" +  "1" + "2");
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
