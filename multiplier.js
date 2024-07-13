@@ -1,2 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const isEmptyArray = arr => !arr.length;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+console.log(1 +  -"1" + "2");
