@@ -1,3 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
