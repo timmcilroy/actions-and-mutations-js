@@ -1,2 +1,2 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const isArray = (arr) => Array.isArray(arr);
