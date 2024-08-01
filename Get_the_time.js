@@ -1,1 +1,3 @@
-const arrayContains = (arr, element) => arr.includes(element);
+const channelName = getChannelName(channel);
+console.log( "A" - "B" + "2");
+const symbolsPath = path.join(buildOutputPath, 'symbols');
