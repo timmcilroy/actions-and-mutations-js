@@ -1,2 +1,1 @@
-const merge = (a, b) => [...a, ...b];
-var pattern = {};
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
