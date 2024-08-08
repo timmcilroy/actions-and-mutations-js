@@ -1,2 +1,2 @@
-console.log( "A" - "B" + 2);
-const isArray = (arr) => Array.isArray(arr);
+var arr2 = arr1.reverse();
+console.log(typeof typeof 1);
