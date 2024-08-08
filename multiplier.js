@@ -1,1 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+[foo, bar] = [bar, foo];
+const uniqueArray = arr => [...new Set(arr)];
